@@ -14,13 +14,12 @@ public class Test : MonoBehaviour {
 			Debug.Log (points [i]);
 		}
 		//逆順に表示する
-		for (int i = 4; i<points.Length; i--){
-			//変数の値が０以上の場合に表示する
-			if(i>=0){
+		for (int i = 4; i>=0; i--){
+			
 			Debug.Log(points[i]);
 		}	
 	}
-	}
+
 
 	
 	// Update is called once per frame
